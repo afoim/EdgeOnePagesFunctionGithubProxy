@@ -21,7 +21,7 @@ const domain_mappings = {
 };
 
 // 需要重定向的路径
-const redirect_paths = ['/', '/login', '/signup', '/copilot'];
+const redirect_paths = ['/', '/login', '/signup', '/copilot', '/search/custom_scopes', 'session'];
 
 // EdgeOne Pages Function export
 export function onRequest(context) {
